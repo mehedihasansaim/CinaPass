@@ -1,0 +1,209 @@
+*{
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* navbar start here */
+.navbar{
+    height: 70px;
+    background-color: #0E2531;
+    color: white;
+    display: flex;
+    align-items: center; 
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 60px;
+    width: 200px;
+    margin-bottom: 15px;
+}
+
+.logo{
+    background-image: url(Cinepass_logo.png);
+    background-size: cover;
+    height: 45px;
+    width: 80%;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 1px solid white;
+}
+
+.border1{
+    height: 40px;
+}
+
+/* ----------------box2--------------- */
+
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add-second{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+/*-------------------- box3 -----------------------*/
+.nav-src{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.serch-select{
+    background-color: #E6E6E6;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+
+.src-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #e5ff23;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #0f1111;
+}
+
+.nav-src:hover {
+    border: 2px solid #e5ff23;
+}
+
+/* ---------------------box4----------------------- */
+
+span {
+    font-size: 0.7rem;
+}
+
+.nav-sec {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* ----------------------box6 -------------------*/
+
+.nav-cart i {
+    font-size: 25px;
+}
+.nav-cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+
+/* navbar ends here ======================================================================================= */
+
+
+
+body{
+    background-color: #ffffff;
+}
+
+.body-div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+}
+
+.profile-left-info{
+    background-color: #253f4f;
+    height: 700px;
+    width: 25%;
+}
+
+.hello-mehedi{
+    margin: 20px 0px 0px 20px;
+    color: white;
+    font-weight: lighter;
+    font-size: 11px;
+}
+
+.inside-left-info{
+    margin: 30px 0px 0px 20px;
+}
+
+.inside-left-info h3{
+    color: yellow;
+    text-decoration: underline;
+}
+
+.manage-account-list{
+    margin: 15px 0px 0px 15px;
+    height: 120px;
+}
+
+.list{
+    margin-bottom: 15px;
+}
+
+.first-div{
+   height: 170px;
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+}
+
+.profile-icon{
+    background-image: url(profilePage-profile-icon.png);
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    margin: 60px 0px 0px 40px;
+    border: 2px solid #0E2531;
+    border-radius: 50%;
+}
+
+.edit-icon{
+   height: 32px;
+   width: 32px;
+   font-size: 20px;
+   margin-top: 80px;
+}
+
+.myProfile{
+    background-color: #253f4f;
+    height: 45px;
+    width: 100%;
+    color: white;
+    padding-top: 15px;
+}
+
+.myName{
+    color: black;
+    margin: 0px 0px 0px 20px;
+}

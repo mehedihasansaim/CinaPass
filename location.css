@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    background-color: #0E2531;
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 1px solid white;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    font-weight: 100;
+}
+
+.src-hall {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    max-width: 620px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #FF3D00;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #ffffff;
+}
+
+.serch-select {
+    background-color: #E6E6E6;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+
+.src-hall:hover {
+    border: 2px solid #FF3D00;
+}
+
+.pannel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* first pannel */
+.first-pannel {
+    background-color: #CBD7E9;
+    text-align: left;
+    padding: 10px 0;
+    height: auto;
+    width: 90%;
+    max-width: 800px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.hall-list {
+    text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+    background-color: #ff6130;
+    color: white;
+    padding: 10px 0;
+}
+
+.list1 {
+    padding: 10px 20px;
+}
+
+.list1:hover {
+    background-color: #ACBBCD;
+    border: 1px solid #ff6130;
+    border-radius: 5px;
+}
+
+.selector {
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+/* second pannel */
+.second-pannel {
+    background-color: #CBD7E9;
+    width: 90%;
+    max-width: 800px;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.icon {
+    font-size: 130px;
+    padding: 20px 0;
+}
+
+.shape {
+    background-color: #FF3D00;
+    color: white;
+    width: 150px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    margin: 20px 0;
+}
+
+.shape:hover {
+    background-color: #a02500;
+    border: 1px solid #2b0a00;
+}
+
+.next {
+    margin-top: 20px;
+    height: 40px;
+    width: 150px;
+    background-color: yellow;
+    color: black;
+    border: none;
+    font-weight: 700;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.next:hover {
+    border: 2px solid #0E2531;
+    background-color: rgb(138, 138, 0);
+    color: white;
+}
+
+.back-home {
+    background-color: #091921;
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Mobile view */
+@media (max-width: 480px) {
+    .src-hall {
+        width: 90%;
+    }
+    
+    .search-input {
+        font-size: 0.9rem;
+    }
+    
+    .search-icon {
+        width: 40px;
+    }
+    
+    .hall-list {
+        font-size: 20px;
+    }
+    
+    .list1 {
+        font-size: 18px;
+        padding: 5px 15px;
+    }
+    
+    .icon {
+        font-size: 100px;
+    }
+    
+    .shape {
+        width: 120px;
+        height: 30px;
+    }
+    
+    .next {
+        width: 120px;
+    }
+    
+    .selector {
+        font-size: 18px;
+    }
+}
+
+/* Tablet view */
+@media (max-width: 768px) {
+    .src-hall {
+        width: 90%;
+    }
+    
+    .search-input {
+        font-size: 0.95rem;
+    }
+    
+    .search-icon {
+        width: 40px;
+    }
+    
+    .hall-list {
+        font-size: 22px;
+    }
+    
+    .list1 {
+        font-size: 19px;
+        padding: 7px 20px;
+    }
+    
+    .icon {
+        font-size: 110px;
+    }
+    
+    .shape {
+        width: 140px;
+        height: 32px;
+    }
+    
+    .next {
+        width: 140px;
+    }
+    
+    .selector {
+        font-size: 19px;
+    }
+}

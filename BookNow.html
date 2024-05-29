@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Ticket Booking System</title>
+    <link rel="stylesheet" href="BookNow.css">
+    <style></style>
+</head>
+<body>
+    <header>
+        <h1>Book Your Ticket</h1>
+    </header>
+    <main>
+        <section id="movie-selection">
+            <h2>Movie Name......</h2>
+            <div class="movie-banner">
+                <img src="movie_banner.jpg" alt="Movie Banner">
+            </div>
+        </section>
+        <section id="booking-details">
+            <h2>Booking Details</h2>
+            <form action="#">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="seats">Number of Seats:</label>
+                <input type="number" id="seats" name="seats" min="1" required>
+                <a href="index.html"><button type="submit">Book Now</button></a>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; CinePass 2024</p>
+    </footer>
+</body>
+</html>

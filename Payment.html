@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Methods</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#2F4C5D;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.payment-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.payment-method {
+    margin-bottom: 10px;
+}
+
+.payment-method input[type="radio"] {
+    display: none;
+}
+
+.payment-method label {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #eaeaea;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.payment-method label:hover {
+    background-color: #dcdcdc;
+}
+
+.pay-button {
+    padding: 10px 20px;
+    background-color: yellow;
+    border: none;
+    border-radius: 5px;
+    color: #080808;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.pay-button:hover {
+    background-color: #0056b3;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Choose Payment Method</h1>
+        <div class="payment-options">
+            <div class="payment-method">
+                <input type="radio" id="bkash" name="payment" value="bkash">
+                <label for="bkash">bKash</label>
+            </div>
+            <div class="payment-method">
+                <input type="radio" id="rocket" name="payment" value="rocket">
+                <label for="rocket">Rocket</label>
+            </div>
+            <div class="payment-method">
+                <input type="radio" id="nagad" name="payment" value="nagad">
+                <label for="nagad">Nagad</label>
+            </div>
+            <div class="payment-method">
+                <input type="radio" id="dutch-bangla-bank" name="payment" value="dutch-bangla-bank">
+                <label for="dutch-bangla-bank">Dutch-Bangla Bank</label>
+            </div>
+        </div>
+        <button class="pay-button" onclick="go()" >Proceed to Pay</button>
+    </div>
+
+
+</body>
+</html>

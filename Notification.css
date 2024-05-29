@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2F4C5D;
+  }
+  
+  .notification-container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #0E2531;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .notification-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    border-bottom: 1px solid #ddd;
+    color: white;
+  }
+  
+  .notification-header h2 {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  .mark-all-read-btn {
+    background-color: yellow;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .notification-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .notification-item {
+    display: flex;
+    padding: 16px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .notification-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 12px;
+  }
+  
+  
+  .notification-details {
+    flex-grow: 1;
+    color: white;
+  }
+  
+  .notification-message {
+    margin: 0;
+    font-weight: lighter;
+  }
+  
+  .notification-time {
+    color: #555;
+    font-size: 14px;
+  }
+  
+  .notification-actions {
+    margin-top: 8px;
+  }
+  
+  .notification-heading-unlist {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .notification-heading-list {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  .notification-heading-div {
+    padding-left: 10px;
+    padding-right: 380px;
+    color: white;
+  }
+  
+  .see-all {
+    color: black;
+    padding-right: 10px;
+    color: white;
+  }
+  .see-all:hover{
+    color: yellow;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .notification-catagory {
+    background-color: #2F4C5D;
+    color: #f9f5f5;
+    border: 1px solid yellow;
+    border-radius: 5px;
+    padding: 4px 12px;
+    margin-right: 8px;
+    cursor: pointer;
+  }
+  
+  .notification-catagory {
+    background-color: #2F4C5D;
+  }
+  
